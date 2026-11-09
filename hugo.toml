@@ -1,0 +1,22 @@
+baseURL = "https://wangying95599.github.io/tech-blog/"
+title = "Tech Blog"
+defaultContentLanguage = "zh-cn"
+locale = "zh-CN"
+enableRobotsTXT = true
+summaryLength = 40
+
+[params]
+  author = "wangying95599"
+  description = "AI 工程、Hermes Agent 与多智能体系统实践笔记"
+
+[pagination]
+  pagerSize = 10
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = true
+
+[outputs]
+  home = ["HTML", "RSS"]
